@@ -62,7 +62,7 @@ class MusicLibraryController
     puts "Please enter the name of an artist:"
     artist = gets.chomp
     
-    
+    if artist = Artist.songs.
     
       
   end
