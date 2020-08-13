@@ -47,7 +47,7 @@ class MusicLibraryController
     songs.each.with_index(1) do |song, i|
       puts "#{i}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
     end
-    songs
+    #songs
   end
   
   def list_artists
@@ -91,7 +91,6 @@ class MusicLibraryController
     if (1..list_songs.length).include?(input)
        song = list_songs[input]
     end
-    
     puts "Playing #{song.name} by #{song.artist.name}" if song
   end
   
