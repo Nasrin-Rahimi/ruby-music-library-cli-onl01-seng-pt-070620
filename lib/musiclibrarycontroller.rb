@@ -88,6 +88,7 @@ class MusicLibraryController
     input = gets.chomp.to_i
    
     if (1..list_songs.length).include?(input)
+      binding.pry
       puts "#{list_songs(input)}"
     end
   end
