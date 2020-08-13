@@ -89,7 +89,7 @@ class MusicLibraryController
     # = gets.chomp.to_i
    
     if (1..list_songs.length).include?(input)
-      puts "#{list_songs[input]}"
+      puts "#{list_songs[input].name}"
     end
   end
   
