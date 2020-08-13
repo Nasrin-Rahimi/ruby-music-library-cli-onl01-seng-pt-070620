@@ -87,7 +87,7 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     input = gets.chomp.to_i
    
-    if input between(1..list_songs.length)
+    if (1..songs.length).include?(input)
       puts 
     end
   end
