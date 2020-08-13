@@ -43,7 +43,6 @@ class MusicLibraryController
   end
   
   def list_songs
-    #1. Thundercat - For Love I Come - dance
     Song.all.sort{|a,b| a.name <=> b.name}.each_with_index(1) do |song,i|
       puts "#{i}. #{song.artist.name} - #{song.name} - #{song.genre}"
   end
