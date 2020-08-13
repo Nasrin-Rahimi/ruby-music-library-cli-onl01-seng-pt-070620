@@ -84,10 +84,8 @@ class MusicLibraryController
   end
   
   def play_song
-   puts "Which song number would you like to play?"
+    puts "Which song number would you like to play?"
     input = gets.chomp.to_i
-
-    # self.list_songs
     songs = Song.all
   
     if (1..songs.length).include?(input)
