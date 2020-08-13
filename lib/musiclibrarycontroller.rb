@@ -43,7 +43,8 @@ class MusicLibraryController
   end
   
   def list_songs
-    Song.all.sort
+    #1. Thundercat - For Love I Come - dance
+    Song.all.sort{}
   end
   
 end
