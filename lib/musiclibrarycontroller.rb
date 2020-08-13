@@ -44,7 +44,7 @@ class MusicLibraryController
   
   def list_songs
     #1. Thundercat - For Love I Come - dance
-    Song.all.sort{}
+    Song.all.sort{|a,b| a}
   end
   
 end
