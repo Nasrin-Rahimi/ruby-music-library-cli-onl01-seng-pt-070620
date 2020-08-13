@@ -89,7 +89,8 @@ class MusicLibraryController
     # = gets.chomp.to_i
    
     if (1..list_songs.length).include?(input)
-      puts "#{list_songs[input].name}"
+       song = list_songs[input]
+      puts "Playing #{song.name} by #{song.artist.name}"
     end
   end
   
