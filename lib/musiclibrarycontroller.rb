@@ -42,7 +42,7 @@ class MusicLibraryController
     end
   end
   
-  def self.list_songs
+  def list_songs
   end
   
 end
