@@ -84,11 +84,11 @@ class MusicLibraryController
   end
   
   def play_song
-     binding.pry
     puts "Which song number would you like to play?"
     input = gets.chomp.to_i
    
     if input between(1..list_songs.length)
+      puts 
     end
   end
   
